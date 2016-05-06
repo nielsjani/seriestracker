@@ -1,0 +1,19 @@
+- Find a way to do the flyway init script:
+
+ALTER PROFILE DEFAULT limit password_life_time UNLIMITED;
+
+ALTER USER SYSTEM IDENTIFIED BY admin;
+
+CREATE ROLE SERIESTRACKER_ROLE_RO;
+CREATE ROLE SERIESTRACKER_ROLE_RW;
+
+CREATE USER SCH_SERIESTR IDENTIFIED BY seriestr;
+GRANT ALL PRIVILEGES TO SCH_SERIESTR;
+GRANT SERIESTRACKER_ROLE_RO TO SCH_SERIESTR;
+GRANT SERIESTRACKER_ROLE_RW TO SCH_SERIESTR;
+
+-----------------------------------------------------
+
+- Find a free OracleDB host?
+- Migrate to PostGreSQL or other?
+-----------------------------------------------------

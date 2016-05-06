@@ -17,7 +17,19 @@
         </dependency>
         <dependency>
             <groupId>be.njani.seriestracker</groupId>
+            <artifactId>seriestracker-domain</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>be.njani.seriestracker</groupId>
             <artifactId>seriestracker-infrastructure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>be.njani.seriestracker</groupId>
+            <artifactId>seriestracker-infrastructure</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>be.njani.seriestracker</groupId>
@@ -25,7 +37,25 @@
         </dependency>
         <dependency>
             <groupId>be.njani.seriestracker</groupId>
+            <artifactId>seriestracker-interfaces</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>be.njani.seriestracker</groupId>
             <artifactId>seriestracker-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>be.njani.seriestracker</groupId>
+            <artifactId>seriestracker-service</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 

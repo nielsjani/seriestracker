@@ -3,6 +3,7 @@
 -- -------------------------------------------------------  --
 CREATE TABLE SERIE (
     SERIE_ID              VARCHAR2(36)  NOT NULL,
+    IMDB_ID               VARCHAR2(100) NOT NULL,
     VERSIE                INTEGER       NOT NULL,
     LAST_MODIFIED_DATE    DATE          NOT NULL,
     PRIMARY KEY (SERIE_ID)

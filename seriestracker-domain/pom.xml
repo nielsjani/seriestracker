@@ -18,6 +18,12 @@
         </dependency>
         <dependency>
             <groupId>be.njani.seriestracker</groupId>
+            <artifactId>seriestracker-infrastructure</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>be.njani.seriestracker</groupId>
             <artifactId>seriestracker-interfaces</artifactId>
         </dependency>
     </dependencies>

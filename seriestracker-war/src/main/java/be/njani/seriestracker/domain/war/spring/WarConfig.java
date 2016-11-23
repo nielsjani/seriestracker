@@ -11,7 +11,6 @@ import static org.springframework.context.annotation.FilterType.ANNOTATION;
         excludeFilters = @ComponentScan.Filter(type = ANNOTATION, value = Configuration.class))
 @PropertySources({
         @PropertySource(value = "classpath:application.properties", ignoreResourceNotFound = false)
-//        @PropertySource(value = "file:${PROJECTBEHEER_PROPERTY_FILE_LOCATION}", ignoreResourceNotFound = true)
 })
 public class WarConfig {
 

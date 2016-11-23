@@ -1,5 +1,5 @@
 {
-  "name": "projectbeheer",
+  "name": "seriestracker",
   "version": "0.0.0",
   "dependencies": {
     "angular": "1.5.2",

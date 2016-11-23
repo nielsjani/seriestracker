@@ -29,6 +29,8 @@ let paths = {
     npm: "package.json",
     indexHtml: "src/index.html",
     indexDeployHtml: "src/index_deploy.html",
+    srcNodeModules: "node_modules/**/*.js",
+    srcBowerComponents: "bower_components/**/*.js",
     srcAppJs: "src/app/**/*.js",
     srcAppHtml: "src/app/**/*.html",
     srcContentCss: "src/content/css/*.css",
@@ -150,7 +152,7 @@ let templates = () => {
 
 gulp.task("build:app:src:js", () => {
     return gulp
-        .src(paths.srcAppJs)
+        .src([paths.srcAppJs])
         .pipe(addStream.obj(templates()))
         .pipe(plumber())
         .pipe(sourceMaps.init())

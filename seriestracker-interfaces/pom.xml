@@ -12,7 +12,7 @@
     <artifactId>seriestracker-interfaces</artifactId>
 
     <dependencies>
-        <!-- projectbeheer -->
+        <!-- seriestracker -->
         <dependency>
             <groupId>be.njani.seriestracker</groupId>
             <artifactId>seriestracker-infrastructure</artifactId>

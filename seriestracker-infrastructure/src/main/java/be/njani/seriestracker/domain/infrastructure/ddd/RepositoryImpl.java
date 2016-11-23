@@ -71,54 +71,54 @@ public class RepositoryImpl<T extends AggregateRoot<ID>, ID extends Id> extends 
     @Override
     @Transactional
     public <S extends T> List<S> save(Iterable<S> entities) {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public <S extends T> S saveAndFlush(S entity) {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public void flush() {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public void delete(T entity) {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public void delete(ID id) {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public void delete(Iterable<? extends T> entities) {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public void deleteAll() {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public void deleteInBatch(Iterable<T> entities) {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 
     @Override
     @Transactional
     public void deleteAllInBatch() {
-        throw new UnsupportedOperationException("Implement this method in be.vdab.projectbeheer.infrastructure.ddd.RepositoryImpl, make sure to detach and merge the entities.");
+        throw new UnsupportedOperationException("Implement this method in RepositoryImpl, make sure to detach and merge the entities.");
     }
 }
